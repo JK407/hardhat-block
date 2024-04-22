@@ -22,6 +22,9 @@ module.exports = {
     hardhat: {},
     external: {
       url: process.env.NODE_RPC_URL // 外部节点的URL
+    },
+    remote: {
+      url: process.env.REMOTE_NODE_RPC_URL // 远程节点的URL
     }
   },
   paths: {
